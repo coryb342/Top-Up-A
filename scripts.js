@@ -5,7 +5,7 @@
  * Description: Dynamically builds a simple webpage.
  */
 
-//Initialize Sections
+// Initialize Sections
 let head = document.head;
 let body = document.body;
 
@@ -42,7 +42,7 @@ let button = document.createElement('button');
 button.innerText = 'Professor';
 paragraph.appendChild(button);
 
-//Handle Button Click
+// Handle Button Click
 function delayedAlert() {
     setTimeout(function () {
         alert('This is Cory.');
